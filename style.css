@@ -25,6 +25,7 @@ body {
 .modal-content {
   max-width: 100%;
   max-height: 100%;
+  overflow: scroll;
 }
 .modal-image {
   object-fit: cover;
@@ -83,6 +84,7 @@ body {
     color: white;
     font-size: 1.5em;
     text-align: center;
+    overflow-y: scroll;
   }
   .image-container:hover > .image {
     filter: brightness(60%);
@@ -131,6 +133,7 @@ body {
     color: white;
     font-size: 3em;
     text-align: center;
+    overflow-y: scroll;
   }
   .text-overlay h1 {
     font-size: 1em;
